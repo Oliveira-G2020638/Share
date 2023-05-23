@@ -1,0 +1,25 @@
+<LayoutModificationTemplate xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout" Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
+  <LayoutOptions StartTileGroupCellWidth="6" />
+  <DefaultLayoutOverride>
+    <StartLayoutCollection>
+      <defaultlayout:StartLayout GroupCellWidth="6">
+        <start:Group Name="Criar">
+          <start:Tile Size="4x2" Column="2" Row="0" AppUserModelID="microsoft.windowscommunicationsapps_8wekyb3d8bbwe!Microsoft.WindowsLive.Mail" />
+          <start:Tile Size="2x2" Column="0" Row="0" AppUserModelID="microsoft.windowscommunicationsapps_8wekyb3d8bbwe!Microsoft.WindowsLive.Calendar" />
+        </start:Group>
+        <start:Group Name="Reproduzir">
+          <start:Tile Size="1x1" Column="5" Row="1" AppUserModelID="Microsoft.WindowsMaps_8wekyb3d8bbwe!App" />
+          <start:Tile Size="4x2" Column="0" Row="0" AppUserModelID="Microsoft.BingWeather_8wekyb3d8bbwe!App" />
+          <start:Tile Size="1x1" Column="4" Row="1" AppUserModelID="Microsoft.WindowsCalculator_8wekyb3d8bbwe!App" />
+          <start:Tile Size="1x1" Column="5" Row="0" AppUserModelID="Microsoft.ZuneMusic_8wekyb3d8bbwe!Microsoft.ZuneMusic" />
+          <start:Tile Size="1x1" Column="4" Row="0" AppUserModelID="Microsoft.ZuneVideo_8wekyb3d8bbwe!Microsoft.ZuneVideo" />
+        </start:Group>
+        <start:Group Name="Explorar">
+          <start:Tile Size="2x2" Column="4" Row="0" AppUserModelID="Microsoft.SkypeApp_kzf8qxf38zg5c!App" />
+          <start:Tile Size="2x2" Column="2" Row="0" AppUserModelID="Microsoft.MSPaint_8wekyb3d8bbwe!Microsoft.MSPaint" />
+          <start:Tile Size="2x2" Column="0" Row="0" AppUserModelID="Microsoft.BingNews_8wekyb3d8bbwe!AppexNews" />
+        </start:Group>
+      </defaultlayout:StartLayout>
+    </StartLayoutCollection>
+  </DefaultLayoutOverride>
+</LayoutModificationTemplate>
